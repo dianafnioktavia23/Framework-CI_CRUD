@@ -1,0 +1,241 @@
+ERROR - 2023-06-14 00:40:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id...' at line 1 in C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, ...', 0)
+#1 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, ...')
+#2 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, ...')
+#3 C:\xampp\htdocs\Database-film-genre\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, ...', Array, false)
+#4 C:\xampp\htdocs\Database-film-genre\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Database-film-genre\app\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Database-film-genre\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Database-film-genre\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-14 00:40:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Database-film-genre\\public\\index.php')
+ERROR - 2023-06-14 00:41:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1 in C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, ...', 0)
+#1 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, ...')
+#2 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, ...')
+#3 C:\xampp\htdocs\Database-film-genre\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, ...', Array, false)
+#4 C:\xampp\htdocs\Database-film-genre\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Database-film-genre\app\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Database-film-genre\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Database-film-genre\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-14 00:41:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Database-film-genre\\public\\index.php')
+ERROR - 2023-06-14 00:44:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1 in C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, ...', 0)
+#1 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, ...')
+#2 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, ...')
+#3 C:\xampp\htdocs\Database-film-genre\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, ...', Array, false)
+#4 C:\xampp\htdocs\Database-film-genre\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Database-film-genre\app\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Database-film-genre\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Database-film-genre\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-14 00:44:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Database-film-genre\\public\\index.php')
+ERROR - 2023-06-14 00:45:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1 in C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, ...', 0)
+#1 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, ...')
+#2 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, ...')
+#3 C:\xampp\htdocs\Database-film-genre\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, ...', Array, false)
+#4 C:\xampp\htdocs\Database-film-genre\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Database-film-genre\app\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Database-film-genre\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Database-film-genre\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-14 00:45:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Database-film-genre\\public\\index.php')
+ERROR - 2023-06-14 00:45:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1 in C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Database-film-genre\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, ...', 0)
+#1 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, ...')
+#2 C:\xampp\htdocs\Database-film-genre\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, ...')
+#3 C:\xampp\htdocs\Database-film-genre\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, ...', Array, false)
+#4 C:\xampp\htdocs\Database-film-genre\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Database-film-genre\app\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+#6 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\xampp\htdocs\Database-film-genre\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Database-film-genre\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Database-film-genre\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-14 00:45:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `fil...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`, *, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 5 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(32): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Database-film-genre\\public\\index.php')
+CRITICAL - 2023-06-14 03:02:56 --> syntax error, unexpected end of file
+in APPPATH\Views\film\semuaFilm.php on line 59.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 3 APPPATH\Controllers\Film.php(33): view('Film/semuaFilm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp12\\htdocs\\Database-film-genre\\public\\index.php')
+CRITICAL - 2023-06-14 03:13:18 --> Undefined variable: film
+in APPPATH\Views\film\semuaFilm.php on line 47.
+ 1 APPPATH\Views\film\semuaFilm.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\semuaFilm.php', 47, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\semuaFilm.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Film/semuaFilm', [], true)
+ 5 APPPATH\Controllers\Film.php(33): view('Film/semuaFilm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp12\\htdocs\\Database-film-genre\\public\\index.php')
+CRITICAL - 2023-06-14 03:42:38 --> Undefined variable: semuaFilm
+in APPPATH\Views\film\index.php on line 45.
+ 1 APPPATH\Views\film\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: semuaFilm', 'C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\index.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp12\\htdocs\\Database-film-genre\\public\\index.php')
+CRITICAL - 2023-06-14 03:49:01 --> Undefined index: nama_genre
+in APPPATH\Views\film\index.php on line 57.
+ 1 APPPATH\Views\film\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_genre', 'C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\index.php', 57, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp12\\htdocs\\Database-film-genre\\app\\Views\\film\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/index', [], true)
+ 5 APPPATH\Controllers\Film.php(25): view('film/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp12\\htdocs\\Database-film-genre\\public\\index.php')
