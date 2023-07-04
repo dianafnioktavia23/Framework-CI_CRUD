@@ -20,12 +20,32 @@
                     <h5 class="card-title"><?= $film["nama_film"] ?></h5>
                     <p class="card-text"><?= $film["nama_genre"] ?> || <?= $film["duration"] ?></p>
                     <a href="#" class="btn btn-info">Detail</a>
-                    <a href="#" class="btn btn-success">Update</a>
-                    <a href="#" class="btn btn-danger">Delete</a>
+                    <a href="/film/update/<?= encryptUrl($semuaFilm["id"]); ?>" class="btn btn-success">Update</a>
+                    <a class="btn btn-danger" onclick="return confirmDelete()">Delete</a>
                 </div>
             </div>
         </div>
     <?php endforeach; ?>
 </div>
+<script>
+    function confirmDelete() {
+        swal({
+                title: "Apakah Anda yakin?",
+                text: "setelah dihapus! data anda akan benar-benar hilang!",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+            .then((willDelete) => {
+                if (willDelete) {
+
+                    window.location.href = "/film/destroy/<?= encryptUrl($film['id']) ?>";
+
+                } else {
+                    swal("Data tidak jadi dihapus!");
+                }
+            });
+    }
+</script>
 
 <?= $this->endSection() ?>

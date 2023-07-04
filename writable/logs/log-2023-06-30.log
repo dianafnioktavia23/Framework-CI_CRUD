@@ -1,0 +1,666 @@
+INFO - 2023-06-30 13:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 13:51:56 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:20:08 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:20:11 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:20:12 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:20:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:20:55 --> Undefined property: App\Controllers\Film::$film
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:16 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:48 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:50 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:50 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:51 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:51 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:52 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:52 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:52 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:52 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:53 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:21:53 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:04 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:06 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:07 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:07 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:08 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:08 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:08 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:09 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:09 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:30:09 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:42 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:44 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:45 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:46 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:47 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:49:48 --> Undefined variable: Film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:21 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:23 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:23 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:23 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:23 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:24 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:24 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:24 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:24 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:24 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 14:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 14:51:25 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:04:39 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:08:08 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:08:13 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:16:00 --> Invalid file: "film/update.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('film/update.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/update', [], true)
+ 3 APPPATH\Controllers\Film.php(49): view('film/update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:16:27 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:18:31 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:19:28 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:20:46 --> Undefined property: App\Controllers\Film::$semuaFilm
+in APPPATH\Controllers\Film.php on line 48.
+ 1 APPPATH\Controllers\Film.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Film::$semuaFilm', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Controllers\\Film.php', 48, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-30 15:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:21:01 --> Undefined variable: film
+in APPPATH\Views\film\edit.php on line 23.
+ 1 APPPATH\Views\film\edit.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: film', 'C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(49): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')

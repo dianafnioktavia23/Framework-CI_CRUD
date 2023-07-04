@@ -1,0 +1,50 @@
+ERROR - 2023-06-27 14:15:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_film', 3306, '', 0)
+#1 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#6 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#7 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\D...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#3 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\app\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\app\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+#5 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#6 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#7 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Dian\Documents\semester 4\FRAMEWORK\Framework-CI_CRUD\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\D...')
+#10 {main}
+CRITICAL - 2023-06-27 14:15:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre` = `film`.`id_genre`', [], false)
+ 3 APPPATH\Models\FilmModel.php(66): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Film.php(27): App\Models\FilmModel->getAllDataJoin()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dian\\Documents\\semester 4\\FRAMEWORK\\Framework-CI_CRUD\\public\\index.php')
+INFO - 2023-06-27 14:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 14:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 14:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 14:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 14:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
